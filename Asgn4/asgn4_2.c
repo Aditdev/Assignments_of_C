@@ -6,7 +6,7 @@ int main()
     int a, vcount = 0, ccount = 0;
     char str[100];
     int i;
-    printf("Enter a string (without space):");
+    printf("Enter a string: ");
     gets(str);
     a = strlen(str);
     printf("The String is %s", str);
