@@ -7,7 +7,7 @@ int main()
     char str[100];
     int i;
     printf("Enter a string (without space):");
-    gets("%s", str);
+    gets(str);
     a = strlen(str);
     printf("The String is %s", str);
     for (i = 0; i < strlen(str); i++)
