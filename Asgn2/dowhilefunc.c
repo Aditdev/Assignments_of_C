@@ -1,6 +1,8 @@
 // To find if a number is an Armstrong number or not
+
 #include <stdio.h>
 #include <math.h>
+
 int main()
 {
     int n, summ = 0, i = 0, count = 0;
@@ -28,5 +30,6 @@ int main()
         printf("The Number %d is an Armstrong Number", n);
     else
         printf("The Number %d is not an Armstrong Number", n);
+
     return 0;
 }
