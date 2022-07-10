@@ -3,11 +3,7 @@
 struct student
 {
     char Name[100];
-    int rollno;
-    int phy;
-    int chem;
-    int maths;
-    int total;
+    int rollno, phy, chem, maths, total;
 } stud;
 
 int main()

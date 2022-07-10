@@ -3,7 +3,8 @@
 struct marks
 {
     int outof;
-    float m1, m2, m3, p;
+    int m1, m2, m3;
+    float p;
 } M;
 
 void recieve();
