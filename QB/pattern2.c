@@ -18,7 +18,7 @@ int main()
     // if (n <= 26)
         for (i = 0; i < n; i++)
         {
-            for (k = n - i - 2; k >= 0; k--)
+            for (k = n - i - 1; k > 0; k--)
                 printf(" ");
             for (j = 0; j <= i; j++)
                 printf("%c ", ch);
