@@ -1,4 +1,5 @@
 // C code to illustrate working of
+
 // getch() to accept hidden inputs
 
 #include <conio.h>
@@ -17,7 +18,7 @@ void main()
 	// clrscr();
 
 	printf("Enter Password: ");
-	for (i = 0; ; i++)
+	for (i = 0; i < 11; i++)
 	{
 
 		// Get the hidden input
