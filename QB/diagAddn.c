@@ -13,9 +13,12 @@ int main()
     printf("Enter a %d x %d matrix:\n", n, n);
     int k = n - 1;
     for (i = 0; i < n; i++)
-        for (j = 0; j < n; j++)
+        {for (j = 0; j < n; j++)
             scanf("%d", &a[i][j]);
+}
+    
     for (i = 0; i < n; i++)
+    {
         for (j = 0; j < n; j++)
         {
             if (i == j)
@@ -23,6 +26,7 @@ int main()
             if (i == k - j)
                 sum += a[i][j];
         }
+    }
     printf("The sum is %d", sum);
     return 0;
 }
