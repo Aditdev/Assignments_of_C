@@ -3,14 +3,14 @@ struct student
 {
     char Name[100];
     int rno, fees;
-} s[];
+} s[10];
 
 int main()
 {
     int i;
     for (i = 0; i < 10; i++)
     {
-        printf("Enter the details of Student %d", i + 1);
+        printf("Enter the details of Student %d\n", i + 1);
         printf("His/Her Name:");
         scanf("\n%[^\n]s", s[i].Name);
         printf("His/Her Roll No.:\n");
@@ -19,7 +19,7 @@ int main()
         scanf("%d", &s[i].fees);
     }
     printf("---Details of Students---\n");
-    printf("Name\tRoll No.\tFees\n");
+    printf("Name\tRoll No\tFees\n");
     for (i = 0; i < 10; i++)
     {
         printf("%s\t", s[i].Name);
