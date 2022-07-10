@@ -1,5 +1,7 @@
 /*
+
 Q40. Write a C program to accept 10 integers from the user and arrange them in ascending order and display them.
+
 */
 
 #include <stdio.h>

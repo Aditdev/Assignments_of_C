@@ -2,6 +2,7 @@
 Q31. Explain the term recursion. Write a program to find summation of n numbers using recursion.
 */
 #include <stdio.h>
+
 int summation(int);
 
 int main()

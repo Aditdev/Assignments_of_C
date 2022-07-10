@@ -11,11 +11,17 @@ int main()
     for (i = 0; i < 10; i++)
     {
         printf("Enter the details of Student %d\n", i + 1);
-        printf("His/Her Name:");
+        
+        printf("Name:");
+
         scanf("\n%[^\n]s", s[i].Name);
-        printf("His/Her Roll No.:\n");
+        
+        printf("Roll No.:\n");
+
         scanf("%d", &s[i].rno);
-        printf("His/Her Fees:\n");
+        
+        printf("Fees:\n");
+
         scanf("%d", &s[i].fees);
     }
     printf("---Details of Students---\n");
