@@ -5,7 +5,6 @@ int	main()
     int age=10;
         age<18?
     printf("Minor"):
-    printf("Major")
-    ;
+    printf("Major");
     return 0;
 }
