@@ -11,7 +11,7 @@ D D D D
 int main()
 {
     int i, j,n;
-    char ch = 'A';
+    char ch = 'A'; 
     printf("Howmany Rows?\n");
     scanf("%d",&n);
     if(n<=26)

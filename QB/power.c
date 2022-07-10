@@ -1,8 +1,12 @@
 /*
+
 Q25. Write a program in C to find out the power of x raised to n (xn), using non-recursive function.
+
 */
 #include <stdio.h>
-int raisedTo(int, int);
+
+long raisedTo(int, int);
+
 int main()
 {
     int n, x;
@@ -13,7 +17,7 @@ int main()
     printf("%d^%d = %d", x, n, raisedTo(x,n));
     return 0;
 }
-int raisedTo(int x, int n)
+long raisedTo(int x, int n)
 {
     int power=1;
     for (int i = 0; i < n; i++)

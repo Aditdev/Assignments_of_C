@@ -6,8 +6,7 @@ Q27. Write a program in C to find the reverse of a given string without using in
 int main()
 {
     int i, len;
-    char temp;
-    char str[100];
+    char temp, str[100];
     printf("Input the string to be reversed:\n");
     gets(str);
     len = strlen(str);
