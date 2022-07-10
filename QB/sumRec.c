@@ -14,7 +14,7 @@ int main()
     printf("The sum of first %d Natural Numbers is %d",n,sum);
     return 0;
 }
-int summation(int x)
+int summation(int  x)
 {
     if (x == 1)
         return 1;
