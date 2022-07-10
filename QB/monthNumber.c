@@ -4,11 +4,19 @@ Q39.Write a C program to implement month name by accepting month number from use
 
 */
 #include <stdio.h>
+void monthNum(int);
 int main()
 {
-    int m;
+    int n;
     printf("Enter a Number:\n");
-    scanf("%d", &m);
+    scanf("%d", &n);
+    monthNum(n);
+    return 0;
+}
+
+void monthNum(int m)
+{
+
     switch (m)
     {
     case 1:
@@ -51,5 +59,4 @@ int main()
         printf("Invalid Number");
         break;
     }
-    return 0;
 }
