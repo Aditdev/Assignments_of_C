@@ -5,7 +5,7 @@ int main()
     int k, sum = 0, s[3][3], t[3][3], mul[3][3];
     int i, j;
     // To read the elements of a 3x3 matrix.
-    printf("Enter elements of12 a 3x3 matrix\n");
+    printf("Enter elements of a 3x3 matrix\n");
     for (i = 0; i < 3; i++)
         for (j = 0; j < 3; j++)
             scanf("%d", &s[i][j]);
